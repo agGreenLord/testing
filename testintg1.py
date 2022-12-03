@@ -1,8 +1,13 @@
 print('hello')
 
-new_list = []
-for i in range(20):
+
+my_list = [i*2 for i in range(20)]
+
+
+
+
+for i in my_list:
     print(i*2, end=' ')
-    new_list.append(i*2)
+   
 print('Bye')
 
